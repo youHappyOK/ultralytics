@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import cv2
 # 加载预训练模型
 model = YOLO("best.pt", task='detect')
+model.to('cuda')
 # model = YOLO("yolov8n.pt") task参数也可以不填写，它会根据模型去识别相应任务类别
 # 检测图片
 results = model("./ultralytics/assets/img_3.png")
