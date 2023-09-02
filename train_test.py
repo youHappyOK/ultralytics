@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load a COCO-pretrained YOLOv8n model
-# 首先导入了YOLO类，并使用预训练的yolov8n.pt模型文件创建了一个model对象。model对象是使用YOLO类初始化得到的YOLOv8模型。
+# 首先导入了YOLO类，并使用预训练的检测模型yolov8n.pt模型文件创建了一个model对象。model对象是使用YOLO类初始化得到的YOLOv8模型。
 model = YOLO('yolov8n.pt')
 # model.to('cuda')
 # Display model information (optional)
