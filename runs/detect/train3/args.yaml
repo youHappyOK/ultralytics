@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: coco128.yaml
-epochs: 10
+data: C:\Users\Administrator\PycharmProjects\ultralytics\ultralytics\cfg\datasets\airplane.yaml
+epochs: 500
 patience: 50
 batch: 16
 imgsz: 640
@@ -95,4 +95,4 @@ mixup: 0.0
 copy_paste: 0.0
 cfg: null
 tracker: botsort.yaml
-save_dir: /Users/luojin/PycharmProjects/ultralytics/runs/detect/train3
+save_dir: C:\Users\Administrator\PycharmProjects\ultralytics\runs\detect\train3

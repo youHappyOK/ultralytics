@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # epochs=10：指定了训练的总轮数（即迭代次数），在这个例子中为100，表示将整个数据集的样本都用于训练10次。
     # imgsz=640：指定了输入图像的大小，这里为640x640像素。大多数目标检测模型在训练过程中需要将输入图像缩放到固定的尺寸
     # Train the model on the COCO8 example dataset for 100 epochs
-    results = model.train(data='coco128.yaml', epochs=10, imgsz=640)
+    results = model.train(data='coco128.yaml', epochs=5, imgsz=640)
 
     # 这段代码使用训练完成的YOLOv8模型对指定的bus.jpg图像进行目标检测。检测结果会存储在results中，你可以根据model对象的具体实现来查看和使用这些结果。
     # Run inference with the YOLOv8n model on the 'bus.jpg' image
