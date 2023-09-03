@@ -9,7 +9,7 @@ model = YOLO(r'C:\Users\Administrator\PycharmProjects\ultralytics\runs\detect\tr
 
 # conf：置信度阈值0.4，只展示0.4以上的目标框图
 # iou：iou越低，就不会存在重叠的框图
-results = model(r'D:\labelimg\test_plane2\images\train\3.png', conf=0.8, iou=0.1)
+results = model(r'D:\labelimg\test_plane2\images\train\3.png', conf=0.8, iou=0.3)
 
 
 
