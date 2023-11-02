@@ -13,7 +13,7 @@ model.to('cuda')
 # res = results[0].plot()
 # cv2.imshow("YOLOv8 Inference", res)
 # cv2.waitKey(0)
-rect = win32gui.GetWindowRect(135658)
+rect = win32gui.GetWindowRect(132770)
 window_rect = (rect[0], rect[1], rect[2], rect[3])
 while True:
     dota2Image = ImageGrab.grab(window_rect)
